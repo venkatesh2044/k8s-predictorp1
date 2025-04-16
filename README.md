@@ -23,39 +23,39 @@ This project is focused on predicting crashes in Kubernetes environments using m
    ```
    pip install -r requirements.txt
    ```
-**#🛠️ Usage**
+##**🛠️ Usage**
   **##Generate Sample Dataset**
   ```
   python driver.py --generate-data --size 20000 --output kubernetes_metrics_dataset.csv
   ```
- **##Train Crash Prediction Model**
+ ###**Train Crash Prediction Model**
  ```
 python driver.py --train-model --input kubernetes_metrics_dataset.csv
 ```
-**##Predict Crashes**
+###**Predict Crashes**
 ```
 python driver.py --predict --input kubernetes_metrics_dataset.csv
 ```
-**#✅ Status**
+##**✅ Status**
 
-  **##Data Generation**
+  ###**Data Generation**
 
-  **##Crash Prediction Model**
+  ###**Crash Prediction Model**
 
-  **##Crash Remediation (Coming Soon)**
+  ###**Crash Remediation (Coming Soon)**
 
-**#🧠 Tech Stack**
+##**🧠 Tech Stack**
 
-  **##Python**
+  ###**Python**
 
-  **##Pandas, NumPy**
+  ###**Pandas, NumPy**
 
-  **##Scikit-learn**
+  ###**Scikit-learn**
 
-  **##argparse, logging**
+  ###**argparse, logging**
 
-**#📌 TODOs**
+##**📌 TODOs**
 
-  **##Implement crash remediation strategies**
+  ###**Implement crash remediation strategies**
 
-  **##Add live Kubernetes metrics integration**
+  ###**Add live Kubernetes metrics integration**
